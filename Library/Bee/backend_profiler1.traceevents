@@ -1,0 +1,496 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690115662329863, "dur":2454, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662332328, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690115662332418, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690115662332440, "dur":581, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690115662333083, "dur":1004, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662334088, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520161, "dur":193, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520354, "dur":91, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520445, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520448, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520457, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520459, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520468, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520470, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520477, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520479, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520486, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520488, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520495, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520497, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520505, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520507, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520514, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520545, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662520565, "dur":3395, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690115662333586, "dur":514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662334103, "dur":11247, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662345489, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690115662345573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662348052, "dur":807, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690115662348866, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690115662348972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662349608, "dur":6078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690115662355689, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662355799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662355808, "dur":5734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662361614, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662361702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662361708, "dur":11266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662373054, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662373139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662373150, "dur":12726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662385958, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662386038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662386047, "dur":6135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662392326, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662392437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662392454, "dur":6318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662398861, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662398964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662398976, "dur":9174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662408216, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662408373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662408382, "dur":13432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662421923, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662422021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662422031, "dur":7501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662429611, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662429695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662429703, "dur":6256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662436046, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662436147, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662436158, "dur":7989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662444213, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662444335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662444344, "dur":5621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662450034, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662450104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662450110, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662453438, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662453731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662453739, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662457434, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662457812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662457822, "dur":5354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662463254, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662463336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662463346, "dur":12014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662475485, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662475603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662475614, "dur":9077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690115662484774, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1690115662484971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662487610, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1690115662492100, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1690115662492522, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662492537, "dur":12153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1690115662504781, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1690115662504867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690115662504875, "dur":5115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1690115662510057, "dur":10104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662333647, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662334113, "dur":11240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662345368, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1690115662345631, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662345946, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1690115662346036, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662346287, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1690115662346648, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662346737, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662346827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662355701, "dur":19305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662375088, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662375209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662375220, "dur":14801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662390109, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662390206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662390213, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662400455, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662400612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662400628, "dur":11572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662412285, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662412399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662412455, "dur":5842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662418402, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662418511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662418522, "dur":7935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662426555, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662426643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662426654, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662431921, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662432008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662432018, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662438397, "dur":1042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662439446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662439457, "dur":11773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662451357, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662451787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662451805, "dur":8270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662460166, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662460258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662460266, "dur":12758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662473119, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662473402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662473413, "dur":7159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662480667, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662480768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662480781, "dur":7060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690115662487960, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690115662488068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662488077, "dur":7919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690115662496092, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690115662496206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690115662496220, "dur":11340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690115662507648, "dur":12515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662333638, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662334106, "dur":11249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662345368, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1690115662345519, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662345819, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690115662346233, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662346383, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest.exe" }}
+,{ "pid":12345, "tid":3, "ts":1690115662346468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662349118, "dur":6804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest.exe" }}
+,{ "pid":12345, "tid":3, "ts":1690115662356010, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662356109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662356118, "dur":16912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662373137, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662373233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662373241, "dur":12667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662386015, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662386118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662386124, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662388551, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662388667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662388681, "dur":7780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662396915, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662397052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662397063, "dur":15316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662412551, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662412665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662412675, "dur":9326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662422083, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662422171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662422178, "dur":7304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662429577, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662429674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662429681, "dur":6521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662436294, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662436400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662436408, "dur":11775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662448281, "dur":1016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662449306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662449320, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662453066, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662453171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662453182, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662459489, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662459595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662459606, "dur":9391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662469091, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662469177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662469188, "dur":12939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662482303, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662483376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662483393, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690115662490387, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690115662490511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662490522, "dur":9591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690115662500191, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690115662500267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690115662500276, "dur":7062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690115662507449, "dur":12709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662333696, "dur":426, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662334122, "dur":11232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662345368, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1690115662345496, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662345805, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1690115662345954, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662346084, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1690115662346165, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662346246, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662346421, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662346518, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662346616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662351642, "dur":13008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662364743, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662364817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662364827, "dur":18463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662383366, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662383442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662383452, "dur":6595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662390161, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662390237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662390244, "dur":7430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662397761, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662397845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662397855, "dur":7262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662405211, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662405308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662405318, "dur":7736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662413132, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662413220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662413230, "dur":8135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662421447, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662421524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662421533, "dur":9854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662431474, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662431564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662431575, "dur":5543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662437193, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662437492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662437499, "dur":11990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662449703, "dur":1325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662451033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662451042, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662456167, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662456532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662456541, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662460339, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662460414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662460420, "dur":11598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662472101, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662472202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662472213, "dur":8287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662480597, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662480767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662480780, "dur":7201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690115662488107, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1690115662488193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662488201, "dur":11798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1690115662500332, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1690115662500410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690115662500416, "dur":6928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1690115662507720, "dur":12442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662333735, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662334128, "dur":11313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662345442, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1690115662345532, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662345805, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690115662345930, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662346048, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1690115662346131, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662346243, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662346418, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662346510, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662346617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662350756, "dur":10717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662361562, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662361659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662361670, "dur":13616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662375384, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662375470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662375479, "dur":14437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662390014, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662390107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662390117, "dur":13940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662404153, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662404242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662404252, "dur":8348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662412825, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662412919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662412929, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662417226, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662417322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662417330, "dur":4622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662422034, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662422118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662422127, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662429456, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662429536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662429543, "dur":6432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662436048, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662436131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662436139, "dur":11926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662448156, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662448706, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662448719, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662452548, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662452636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662452646, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662458969, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662459072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662459085, "dur":8710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662467883, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662467966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662467978, "dur":6207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662474275, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662474367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662474378, "dur":8179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662482638, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662482811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662482858, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690115662487413, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690115662487840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662487856, "dur":16609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690115662504531, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690115662504597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690115662504605, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690115662509219, "dur":10937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662333773, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662334133, "dur":11334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662345467, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1690115662345568, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662345794, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1690115662345908, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662346024, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1690115662346209, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662346402, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1690115662346672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662354768, "dur":39841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1690115662394750, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662394928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662394940, "dur":10745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662405777, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662405873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662405883, "dur":14694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662420658, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662421045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662421060, "dur":8246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662429387, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662429471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662429479, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662432751, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662432841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662432850, "dur":6730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662439685, "dur":1224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662440916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662440926, "dur":9441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662450452, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662450535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662450546, "dur":5431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662456070, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662456422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662456431, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662460081, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662460177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662460186, "dur":8956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662469210, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662469285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662469291, "dur":8930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662478320, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662478415, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662478430, "dur":6013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662484529, "dur":31648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662516184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690115662517318, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690115662520131, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1690115662520133, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662333808, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662334141, "dur":11219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662345374, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1690115662345531, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662345815, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1690115662345913, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662346027, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1690115662346109, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662346224, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662346315, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662346428, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662346520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662350604, "dur":14080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662364789, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662364891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662364899, "dur":8147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662373202, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662373553, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662373970, "dur":16183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662390225, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662390306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662390314, "dur":18938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662409347, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662409493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662409505, "dur":12531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662422126, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662422213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662422220, "dur":9103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662431423, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662431698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662431707, "dur":5385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662437181, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662437270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662437279, "dur":12694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662450067, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662450881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662450892, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662456061, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662456398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662456408, "dur":5971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662462455, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662462538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662462546, "dur":10162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662473408, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662473528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662473537, "dur":10172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662483800, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662484517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662484532, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690115662488110, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690115662488207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662488217, "dur":13055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690115662501363, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1690115662501455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690115662501464, "dur":7078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1690115662508648, "dur":11509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662333841, "dur":305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662334146, "dur":11211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662345368, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1690115662345495, "dur":664, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662346161, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1690115662346249, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662346503, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662347053, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662356931, "dur":16058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662373103, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662373189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662373196, "dur":12705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662385970, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662386038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662386047, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662388635, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662389531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662389543, "dur":8295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662397940, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662398013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662398020, "dur":10003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662408116, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662408212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662408224, "dur":8910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662417217, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662417309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662417320, "dur":5813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662423225, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662423336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662423347, "dur":5876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662429300, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662429373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662429384, "dur":6363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662435830, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662435905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662435914, "dur":13705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662449704, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662450030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662450040, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662454282, "dur":2317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662456637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662456645, "dur":8560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662465323, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662465433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662465445, "dur":8193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662473712, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662473797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662473806, "dur":11431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690115662485334, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1690115662485430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662485476, "dur":7836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1690115662493782, "dur":3719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1690115662497510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662497581, "dur":8588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1690115662506234, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/maphu/Documents/GameJam/BloodPriest_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1690115662506493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690115662506501, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/maphu/Documents/GameJam/BloodPriest_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1690115662509135, "dur":11030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690115662526870, "dur":5626, "ph":"X", "name": "ProfilerWriteOutput" }
+,
