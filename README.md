@@ -2,7 +2,7 @@
 
 BloodPriest is a top-down-shooter game project made by [Hopium](https://hopium.itch.io/) during a 3 days GameJam competition with the theme of "Life is Currency".
 
-The game's theme is based on medeival era with knigths and dark priests. Your goal is to collect 100 souls to feed to the demon king. 
+The game's theme is based on medeival era with knigths and dark priests. Your goal is to collect 100 souls to feed to the demon king. (This game is my first ever game that i programmed legitimately)
 
 Link to the game: https://hopium.itch.io/bloodpriest
 
