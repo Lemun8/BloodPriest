@@ -6,6 +6,9 @@ The game's theme is based on medeival era with knigths and dark priests. Your go
 
 Link to the game: https://hopium.itch.io/bloodpriest
 
+![Uploading pixil-frame-0_34.png…]()
+
+
 # Story
 
 You play as a BloodPriest who seeks souls to fulfill the demon's king satisfaction.
