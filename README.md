@@ -13,13 +13,22 @@ Link to the game: https://hopium.itch.io/bloodpriest
 
 You play as a BloodPriest who seeks souls to fulfill the demon's king satisfaction.
 
+![image (14)](https://github.com/Lemun8/BloodPriest/assets/107360799/33f1a6bd-afbd-4402-a55a-169b5e817501)
+
+
 # Gameplay
 
 Top-Down-Shooter mechanic, you control with WASD and mouse to look and shoot. Everytime you shoot, you lose your life but everytime you kill you gain some of your life back.
 
+![image (15)](https://github.com/Lemun8/BloodPriest/assets/107360799/8c2d4924-85b5-4833-b53f-6032f915e0e5)
+
+
 # Main Objective
 
 Your goal is to kill 100 knights.
+
+![Uploading image (16).png…]()
+
 
 # Player Control
 
