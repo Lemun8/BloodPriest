@@ -6,7 +6,8 @@ The game's theme is based on medeival era with knigths and dark priests. Your go
 
 Link to the game: https://hopium.itch.io/bloodpriest
 
-![Uploading pixil-frame-0_34.png…]()
+![pixil-frame-0_34](https://github.com/Lemun8/BloodPriest/assets/107360799/2f8d3a7e-df15-4e54-b3e7-8ba18586a50c)
+
 
 
 # Story
@@ -27,7 +28,8 @@ Top-Down-Shooter mechanic, you control with WASD and mouse to look and shoot. Ev
 
 Your goal is to kill 100 knights.
 
-![Uploading image (16).png…]()
+![image (16)](https://github.com/Lemun8/BloodPriest/assets/107360799/da10ac1f-11e1-4585-882b-7f2101527a3b)
+
 
 
 # Player Control
