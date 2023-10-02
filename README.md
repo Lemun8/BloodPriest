@@ -4,6 +4,8 @@ BloodPriest is a top-down-shooter game project made by [Hopium](https://hopium.i
 
 The game's theme is based on medeival era with knigths and dark priests. Your goal is to collect 100 souls to feed to the demon king. (This game is my first ever game that i programmed legitimately)
 
+Game Engine: Unity Editor Version 2021.3.21f1
+
 Link to the game: https://hopium.itch.io/bloodpriest
 
 ![pixil-frame-0_34](https://github.com/Lemun8/BloodPriest/assets/107360799/2f8d3a7e-df15-4e54-b3e7-8ba18586a50c)
