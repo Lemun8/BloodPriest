@@ -42,6 +42,16 @@ Your goal is to kill 100 knights.
 | Mouse             | Look Around       |
 | Mouse1            | Shoot             |
 
+# Codes Explained
+
+### Enemy AI Targeting
+
+The enemy AI's program attacks the an object that has been tagged "Player", The melee knight has a box collider if the player collides with the melee knight's box collider then the player will take damage. Meanwhile the ranged knight will check whether the player is close enough or not, then it will decide to shoot or not, if the player is too far from the given range then it will go closer to the player, once the ranged knight is close enough then it will stop moving and shoot.
+
+### Player Controls
+
+The player's controls are a simple WASD movement and mouse aim targetting while also clicking left-click to shoot. The player can move in a 360 degree radius. 
+
 # Credits
 
 Johan Ariel - **Game Programmer & Game Designer** <br>
