@@ -42,6 +42,8 @@ Your goal is to kill 100 knights.
 | Mouse             | Look Around       |
 | Mouse1            | Shoot             |
 
+#Core Loop
+
 # Codes Explained
 
 ### Enemy AI Targeting
