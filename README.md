@@ -32,8 +32,6 @@ Your goal is to kill 100 knights.
 
 ![image (16)](https://github.com/Lemun8/BloodPriest/assets/107360799/da10ac1f-11e1-4585-882b-7f2101527a3b)
 
-
-
 # Player Control
 
 | Key Binding       | Function          |
@@ -41,23 +39,6 @@ Your goal is to kill 100 knights.
 | W,A,S,D           | Movement          |
 | Mouse             | Look Around       |
 | Mouse1            | Shoot             |
-
-# Codes Explained
-
-### Enemy AI Targeting
-
-The enemy AI's program attacks the an object that has been tagged "Player", The melee knight has a box collider if the player collides with the melee knight's box collider then the player will take damage. Meanwhile the ranged knight will check whether the player is close enough or not, then it will decide to shoot or not, if the player is too far from the given range then it will go closer to the player, once the ranged knight is close enough then it will stop moving and shoot.
-
-![Screenshot 2023-10-04 223115](https://github.com/Lemun8/BloodPriest/assets/107360799/8af84e69-cef7-404f-9475-db73472746d0)
-
-![Screenshot 2023-10-04 223201](https://github.com/Lemun8/BloodPriest/assets/107360799/008fb050-a44d-487e-b003-2669ee9271b5)
-
-### Player Controls
-
-The player's controls are a simple WASD movement and mouse aim targetting while also clicking left-click to shoot. The player can move in a 360 degree radius. 
-
-![Screenshot 2023-10-04 223232](https://github.com/Lemun8/BloodPriest/assets/107360799/31b3d419-395c-4b6d-b676-86f018e3d77d)
-
 
 # Credits
 
