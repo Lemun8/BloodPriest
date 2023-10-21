@@ -17,7 +17,8 @@ Link to the game: https://hopium.itch.io/bloodpriest
 
 You play as a BloodPriest who seeks souls to fulfill the demon's king satisfaction.
 
-![image (14)](https://github.com/Lemun8/BloodPriest/assets/107360799/33f1a6bd-afbd-4402-a55a-169b5e817501)
+![pixil-frame-0_34](https://github.com/Lemun8/BloodPriest/assets/107360799/43154bcb-7f9a-425e-bfc6-1f29ba3e4dc2)
+
 
 
 # Gameplay
